@@ -1,0 +1,23 @@
+{
+  "name": "@risingstack/rest-api-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "7.0.22",
+    "express": "4.15.3",
+    "supertest": "3.0.0",
+    "tsc": "1.20150623.0",
+    "typescript": "2.3.3"
+  }
+}
